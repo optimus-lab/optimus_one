@@ -1,4 +1,3 @@
- [START compute_instances_quickstart]
 resource "google_compute_instance" "default" {
   name         = "vm_example"
   machine_type = "e2-micro"
